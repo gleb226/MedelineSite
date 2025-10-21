@@ -1,10 +1,215 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти - Medellin Coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
 </head>
 <body>
-    <h1>Unfinished!!!</h1>
+<header class="header">
+    <div class="header__container">
+        <a href="../../index.html" class="header__logo">Medellin</a>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="../../index.html" class="nav__link">Головна</a></li>
+                <li class="nav__item"><a href="../menu/menu.html" class="nav__link">Меню</a></li>
+                <li class="nav__item"><a href="../about/about.html" class="nav__link">Про нас</a></li>
+                <li class="nav__item"><a href="../gallery/gallery.html" class="nav__link">Галерея</a></li>
+                <li class="nav__item"><a href="../events/events.html" class="nav__link">Події</a></li>
+                <li class="nav__item"><a href="../blog/blog.html" class="nav__link">Блог</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link">Контакти</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <section class="contact">
+        <h1 class="section-title">Контакти</h1>
+
+        <div class="contact__container">
+            <div class="contact__info">
+                <h3 class="contact__info-title">Наші заклади</h3>
+
+                <div class="contact__location">
+                    <h4 class="contact__location-name">Medellin на Корзо</h4>
+                    <div class="contact__item">
+                        <span class="contact__item-icon">📍</span>
+                        <div>
+                            <p>вул. Корзо, 15, Ужгород</p>
+                            <p>88000, Закарпатська область</p>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <span class="contact__item-icon">📞</span>
+                        <div>
+                            <p><a href="tel:+380671234567">+380 (67) 123-45-67</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <span class="contact__item-icon">⏰</span>
+                        <div>
+                            <p>Понеділок-Неділя: 08:00 - 22:00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__location">
+                    <h4 class="contact__location-name">Medellin Центр</h4>
+                    <div class="contact__item">
+                        <span class="contact__item-icon">📍</span>
+                        <div>
+                            <p>пл. Петефі, 8, Ужгород</p>
+                            <p>88000, Закарпатська область</p>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <span class="contact__item-icon">📞</span>
+                        <div>
+                            <p><a href="tel:+380672345678">+380 (67) 234-56-78</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <span class="contact__item-icon">⏰</span>
+                        <div>
+                            <p>Понеділок-Неділя: 09:00 - 23:00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__social">
+                    <h4 class="contact__location-name">Соціальні мережі</h4>
+                    <div class="contact__item">
+                        <span class="contact__item-icon">📱</span>
+                        <div>
+                            <p><a href="https://www.instagram.com/medellin.uzhhorod/" target="_blank">Instagram: @medellin.uzhhorod</a></p>
+                            <p><a href="https://www.facebook.com/medellin.uzhhorod" target="_blank">Facebook: Medellin Coffee</a></p>
+                            <p><a href="https://www.tiktok.com/@medellin.coffee" target="_blank">TikTok: @medellin.coffee</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__item">
+                    <span class="contact__item-icon">✉️</span>
+                    <div>
+                        <p>Email: <a href="mailto:info@medellin.coffee">info@medellin.coffee</a></p>
+                    </div>
+                </div>
+
+                <iframe
+                        class="contact__map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2683.892676894326!2d22.297537!3d48.621025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47389479a1e4e1ab%3A0x3a1e3e1e3e1e3e1e!2z0JrQvtGA0LfQviwg0KPQttCz0L7RgNC-0LQ!5e0!3m2!1suk!2sua!4v1234567890123!5m2!1suk!2sua"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <div class="booking-form">
+                <h3 class="booking-form__title">Забронювати столик</h3>
+                <form>
+                    <div class="form-group">
+                        <label class="form-group__label" for="name">Ім'я</label>
+                        <input class="form-group__input" type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-group__label" for="phone">Телефон</label>
+                        <input class="form-group__input" type="tel" id="phone" name="phone" placeholder="+380 (XX) XXX-XX-XX" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-group__label" for="email">Email</label>
+                        <input class="form-group__input" type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-group__label" for="location">Оберіть заклад</label>
+                        <select class="form-group__select" id="location" name="location" required>
+                            <option value="">Оберіть локацію</option>
+                            <option value="korzo">Medellin на Корзо</option>
+                            <option value="center">Medellin Центр</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-group__label" for="date">Дата</label>
+                        <input class="form-group__input" type="date" id="date" name="date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-group__label" for="time">Час</label>
+                        <input class="form-group__input" type="time" id="time" name="time" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-group__label" for="guests">Кількість гостей</label>
+                        <select class="form-group__select" id="guests" name="guests" required>
+                            <option value="">Оберіть кількість</option>
+                            <option value="1">1 гість</option>
+                            <option value="2">2 гостя</option>
+                            <option value="3">3 гостя</option>
+                            <option value="4">4 гостя</option>
+                            <option value="5">5 гостей</option>
+                            <option value="6">6 гостей</option>
+                            <option value="7+">7+ гостей</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-group__label" for="message">Додаткова інформація</label>
+                        <textarea class="form-group__textarea" id="message" name="message" placeholder="Особливі побажання, алергії тощо..."></textarea>
+                    </div>
+
+                    <button class="form-group__submit" type="submit">Забронювати</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer__content">
+        <div class="footer__section">
+            <h3 class="footer__title">Medellin Coffee</h3>
+            <p class="footer__text">Найкраща кава в Ужгороді</p>
+            <p class="footer__text">Смак, якість, атмосфера</p>
+        </div>
+
+        <div class="footer__section">
+            <h3 class="footer__title">Контакти</h3>
+            <p class="footer__text">📍 вул. Корзо, 15, Ужгород</p>
+            <p class="footer__text">📞 +380 (67) 123-45-67</p>
+            <p class="footer__text">✉️ info@medellin.coffee</p>
+        </div>
+
+        <div class="footer__section">
+            <h3 class="footer__title">Години роботи</h3>
+            <p class="footer__text">Понеділок-Неділя</p>
+            <p class="footer__text">08:00 - 22:00</p>
+        </div>
+
+        <div class="footer__section">
+            <h3 class="footer__title">Соцмережі</h3>
+            <a href="https://www.instagram.com/medellin.uzhhorod/" target="_blank" class="footer__link">Instagram</a>
+            <a href="https://www.facebook.com/medellin.uzhhorod" target="_blank" class="footer__link">Facebook</a>
+            <a href="https://www.tiktok.com/@medellin.coffee" target="_blank" class="footer__link">TikTok</a>
+        </div>
+    </div>
+
+    <div class="footer__bottom">
+        <p class="footer__copyright">© 2024 Medellin Coffee. Усі права захищені.</p>
+        <p class="footer__copyright">Сайт створено <strong>Глєбом</strong> — веброзробником з Ужгорода.</p>
+    </div>
+</footer>
 </body>
 </html>
