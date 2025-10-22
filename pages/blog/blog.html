@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Блог - Medelin Coffee</title>
+    <title>Блог - Medellin Coffee</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
 <body>
 <header class="header">
     <div class="header__container">
-        <a href="../../index.html" class="header__logo">Medelin</a>
+        <a href="../../index.html" class="header__logo">Medellin</a>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="../../index.html" class="nav__link">Головна</a></li>
@@ -33,73 +33,111 @@
         <h1 class="section-title">Наш блог</h1>
 
         <div class="blog__grid">
-            <article class="blog-card">
+            <article class="blog-card" onclick="openPopup('blog1')">
                 <div class="blog-card__image" style="background-image: url('https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=800&q=80');"></div>
                 <div class="blog-card__content">
                     <p class="blog-card__meta">5 листопада 2024 • Кавова культура</p>
-                    <h3 class="blog-card__title">Як обирати каву: гід для початківців</h3>
-                    <p class="blog-card__description">Світ кави величезний і різноманітний. Арабіка чи робуста? Світле чи темне обсмаження? У цій статті ми розповімо, як обрати каву за своїм смаком і не помилитися.</p>
-                    <a href="#" class="blog-card__link">Читати далі →</a>
+                    <h3 class="blog-card__title">Як обирати каву</h3>
                 </div>
             </article>
 
-            <article class="blog-card">
+            <article class="blog-card" onclick="openPopup('blog2')">
                 <div class="blog-card__image" style="background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80');"></div>
                 <div class="blog-card__content">
                     <p class="blog-card__meta">1 листопада 2024 • Техніки</p>
                     <h3 class="blog-card__title">Мистецтво латте-арту</h3>
-                    <p class="blog-card__description">Латте-арт — це не просто красиво, це справжнє мистецтво. Дізнайтеся про основні техніки, інструменти та секрети створення візерунків на молочній піні від наших бариста.</p>
-                    <a href="#" class="blog-card__link">Читати далі →</a>
                 </div>
             </article>
 
-            <article class="blog-card">
+            <article class="blog-card" onclick="openPopup('blog3')">
                 <div class="blog-card__image" style="background-image: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80');"></div>
                 <div class="blog-card__content">
                     <p class="blog-card__meta">28 жовтня 2024 • Рецепти</p>
-                    <h3 class="blog-card__title">5 способів приготувати каву вдома</h3>
-                    <p class="blog-card__description">Турка, френч-прес, кемекс, аеропрес чи гейзерна кавоварка? Розповідаємо про найпопулярніші способи приготування кави вдома та їхні особливості.</p>
-                    <a href="#" class="blog-card__link">Читати далі →</a>
+                    <h3 class="blog-card__title">5 способів приготувати каву</h3>
                 </div>
             </article>
 
-            <article class="blog-card">
+            <article class="blog-card" onclick="openPopup('blog4')">
                 <div class="blog-card__image" style="background-image: url('https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800&q=80');"></div>
                 <div class="blog-card__content">
                     <p class="blog-card__meta">22 жовтня 2024 • Історія</p>
                     <h3 class="blog-card__title">Подорож кавового зерна</h3>
-                    <p class="blog-card__description">Від плантації до вашої чашки — дізнайтеся, який шлях долає кавове зерно. Розповідаємо про вирощування, збір, обробку, обсмаження та транспортування кави.</p>
-                    <a href="#" class="blog-card__link">Читати далі →</a>
                 </div>
             </article>
 
-            <article class="blog-card">
+            <article class="blog-card" onclick="openPopup('blog5')">
                 <div class="blog-card__image" style="background-image: url('https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&q=80');"></div>
                 <div class="blog-card__content">
                     <p class="blog-card__meta">15 жовтня 2024 • Поради</p>
                     <h3 class="blog-card__title">Як зберігати каву правильно</h3>
-                    <p class="blog-card__description">Правильне зберігання кави — запорука свіжості та насиченого смаку. Дізнайтеся про умови зберігання, вибір упаковки та термін придатності кави.</p>
-                    <a href="#" class="blog-card__link">Читати далі →</a>
                 </div>
             </article>
 
-            <article class="blog-card">
+            <article class="blog-card" onclick="openPopup('blog6')">
                 <div class="blog-card__image" style="background-image: url('https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&q=80');"></div>
                 <div class="blog-card__content">
                     <p class="blog-card__meta">10 жовтня 2024 • Здоров'я</p>
-                    <h3 class="blog-card__title">Кава і здоров'я: міфи та факти</h3>
-                    <p class="blog-card__description">Чи корисна кава? Скільки чашок можна пити на день? Розвінчуємо популярні міфи та розповідаємо про доведені наукою факти про каву та здоров'я.</p>
-                    <a href="#" class="blog-card__link">Читати далі →</a>
+                    <h3 class="blog-card__title">Кава і здоров'я</h3>
                 </div>
             </article>
         </div>
     </section>
 </main>
 
+<div class="popup" id="blog1">
+    <div class="popup__overlay" onclick="closePopup('blog1')"></div>
+    <div class="popup__content">
+        <button class="popup__close" onclick="closePopup('blog1')">✕</button>
+        <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=800&q=80" alt="Як обирати каву" class="popup__image">
+        <h3 class="popup__title">Як обирати каву: гід для початківців</h3>
+        <p class="popup__price">📅 5 листопада 2024 • Кавова культура</p>
+        <p class="popup__description">Світ кави величезний і різноманітний. Арабіка чи робуста? Світле чи темне обсмаження? У цій статті ми розповімо, як обрати каву за своїм смаком і не помилитися. Перш за все, важливо розуміти різницю між основними видами кави та методами їх обробки.</p>
+        <div class="popup__details">
+            <p><strong>Арабіка vs Робуста:</strong> Арабіка м'якша та ароматніша, робуста міцніша з гіркуватим смаком.</p>
+            <p><strong>Обсмаження:</strong> Світле зберігає природний смак зерна, темне додає карамельних нот.</p>
+            <p><strong>Походження:</strong> Кава з різних країн має унікальні смакові профілі.</p>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="blog2">
+    <div class="popup__overlay" onclick="closePopup('blog2')"></div>
+    <div class="popup__content">
+        <button class="popup__close" onclick="closePopup('blog2')">✕</button>
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80" alt="Мистецтво латте-арту" class="popup__image">
+        <h3 class="popup__title">Мистецтво латте-арту</h3>
+        <p class="popup__price">📅 1 листопада 2024 • Техніки</p>
+        <p class="popup__description">Латте-арт — це не просто красиво, це справжнє мистецтво. Дізнайтеся про основні техніки, інструменти та секрети створення візерунків на молочній піні від наших бариста. Навчіться створювати серця, тюльпани та інші складні малюнки.</p>
+        <div class="popup__details">
+            <p><strong>Базові елементи:</strong> Серце, розетка, тюльпан</p>
+            <p><strong>Техніка:</strong> Правильний нахил чашки та висота струменя молока</p>
+            <p><strong>Молоко:</strong> Температура 60-65°C, гладка мікропіна</p>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="blog3">
+    <div class="popup__overlay" onclick="closePopup('blog3')"></div>
+    <div class="popup__content">
+        <button class="popup__close" onclick="closePopup('blog3')">✕</button>
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80" alt="5 способів приготувати каву" class="popup__image">
+        <h3 class="popup__title">5 способів приготувати каву вдома</h3>
+        <p class="popup__price">📅 28 жовтня 2024 • Рецепти</p>
+        <p class="popup__description">Турка, френч-прес, кемекс, аеропрес чи гейзерна кавоварка? Розповідаємо про найпопулярніші способи приготування кави вдома та їхні особливості. Кожен метод розкриває унікальні грані кавового смаку.</p>
+        <div class="popup__details">
+            <p><strong>Турка:</strong> Традиційний східний метод, насичений смак</p>
+            <p><strong>Френч-прес:</strong> Простий спосіб, повне розкриття аромату</p>
+            <p><strong>Кемекс:</strong> Чиста чашка, делікатний смак</p>
+            <p><strong>Аеропрес:</strong> Швидко, зручно, багато варіацій</p>
+            <p><strong>Гейзерна кавоварка:</strong> Класика, схожа на еспресо</p>
+        </div>
+    </div>
+</div>
+
 <footer class="footer">
     <div class="footer__content">
         <div class="footer__section">
-            <h3 class="footer__title">Medelin Coffee</h3>
+            <h3 class="footer__title">Medellin Coffee</h3>
             <p class="footer__text">Найкраща кава в Ужгороді</p>
             <p class="footer__text">Смак, якість, атмосфера</p>
         </div>
@@ -108,7 +146,7 @@
             <h3 class="footer__title">Контакти</h3>
             <p class="footer__text">📍 вул. Корзо, 15, Ужгород</p>
             <p class="footer__text">📞 +380 (67) 123-45-67</p>
-            <p class="footer__text">✉️ info@medelin.coffee</p>
+            <p class="footer__text">✉️ info@medellin.coffee</p>
         </div>
 
         <div class="footer__section">
@@ -119,15 +157,38 @@
 
         <div class="footer__section">
             <h3 class="footer__title">Соцмережі</h3>
-            <a href="https://www.instagram.com/medelin_uzh/" target="_blank" class="footer__link">Instagram</a>
-            <a href="https://www.instagram.com/medelincoffee.bozdosh/" target="_blank" class="footer__link">Instagram(Bozdosh)</a>
+            <a href="https://www.instagram.com/medellin.uzhhorod/" target="_blank" class="footer__link">Instagram</a>
+            <a href="https://www.facebook.com/medellin.uzhhorod" target="_blank" class="footer__link">Facebook</a>
+            <a href="https://www.tiktok.com/@medellin.coffee" target="_blank" class="footer__link">TikTok</a>
         </div>
     </div>
 
     <div class="footer__bottom">
-        <p class="footer__copyright">© 2025 Medelin Coffee. Усі права захищені.</p>
+        <p class="footer__copyright">© 2024 Medellin Coffee. Усі права захищені.</p>
         <p class="footer__copyright">Сайт створено <strong>Глєбом</strong> — веброзробником з Ужгорода.</p>
     </div>
 </footer>
+
+<script>
+    function openPopup(id) {
+        document.getElementById(id).classList.add('popup--active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closePopup(id) {
+        document.getElementById(id).classList.remove('popup--active');
+        document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            const activePopup = document.querySelector('.popup--active');
+            if (activePopup) {
+                activePopup.classList.remove('popup--active');
+                document.body.style.overflow = '';
+            }
+        }
+    });
+</script>
 </body>
 </html>

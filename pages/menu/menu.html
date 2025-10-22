@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Меню - Medelin Coffee</title>
+    <title>Меню - Medellin Coffee</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/responsive.css">
 </head>
 <body>
 <header class="header">
     <div class="header__container">
-        <a href="../../index.html" class="header__logo">Medelin</a>
+        <a href="../../index.html" class="header__logo">Medellin</a>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="../../index.html" class="nav__link">Головна</a></li>
@@ -36,82 +35,67 @@
         <div class="menu__categories">
             <article class="category">
                 <h3 class="category__title">☕ Кава</h3>
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=800&q=80');"></div>
+
+                <div class="menu-item" onclick="openPopup('coffee1')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Еспресо</h4>
-                        <p class="menu-item__description">Класичний італійський еспресо з насиченим ароматом</p>
                         <span class="menu-item__price">45 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('coffee2')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Американо</h4>
-                        <p class="menu-item__description">М'який кавовий напій на основі еспресо</p>
                         <span class="menu-item__price">50 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('coffee3')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Капучино</h4>
-                        <p class="menu-item__description">Ідеальна гармонія еспресо та молочної піни</p>
                         <span class="menu-item__price">65 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1561882468-9110e03e0f78?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('coffee4')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1561882468-9110e03e0f78?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Латте</h4>
-                        <p class="menu-item__description">Ніжний молочний напій з латте-артом</p>
                         <span class="menu-item__price">70 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('coffee5')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Флет Вайт</h4>
-                        <p class="menu-item__description">Сильний смак кави з оксамитовим молоком</p>
                         <span class="menu-item__price">75 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('coffee6')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Айс Латте</h4>
-                        <p class="menu-item__description">Освіжаючий холодний латте з льодом</p>
                         <span class="menu-item__price">75 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1545665225-b23b99e4d45e?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('coffee7')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1545665225-b23b99e4d45e?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Раф кава</h4>
-                        <p class="menu-item__description">Вершковий напій з ванільним смаком</p>
                         <span class="menu-item__price">80 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('coffee8')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Мокачіно</h4>
-                        <p class="menu-item__description">Кава з шоколадом та збитими вершками</p>
                         <span class="menu-item__price">85 грн</span>
                     </div>
                 </div>
@@ -120,72 +104,58 @@
             <article class="category">
                 <h3 class="category__title">🍵 Чай</h3>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('tea1')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Зелений чай</h4>
-                        <p class="menu-item__description">Освіжаючий китайський зелений чай</p>
                         <span class="menu-item__price">40 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('tea2')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Чорний чай</h4>
-                        <p class="menu-item__description">Класичний цейлонський чай</p>
                         <span class="menu-item__price">35 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1597916374805-77c812a72447?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687');"></div>
+                <div class="menu-item" onclick="openPopup('tea3')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1597318114808-2e14c25c8a69?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Фруктовий чай</h4>
-                        <p class="menu-item__description">Ароматна суміш сухофруктів та ягід</p>
                         <span class="menu-item__price">45 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1501199532894-9449c0a85a77?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687');"></div>
+                <div class="menu-item" onclick="openPopup('tea4')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1563822249366-6ca896a3d6d3?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">М'ятний чай</h4>
-                        <p class="menu-item__description">Свіжий чай з натуральною м'ятою</p>
                         <span class="menu-item__price">40 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('tea5')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Масала чай</h4>
-                        <p class="menu-item__description">Пряний індійський чай з молоком</p>
                         <span class="menu-item__price">55 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1558160074-4d7d8bdf4256?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('tea6')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1558160074-4d7d8bdf4256?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Імбирний чай</h4>
-                        <p class="menu-item__description">Гострий та тонізуючий чай з імбиром</p>
                         <span class="menu-item__price">50 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('tea7')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Обліпиховий чай</h4>
-                        <p class="menu-item__description">Корисний чай з обліпихою та медом</p>
                         <span class="menu-item__price">55 грн</span>
                     </div>
                 </div>
@@ -194,83 +164,127 @@
             <article class="category">
                 <h3 class="category__title">🍰 Десерти</h3>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('dessert1')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Чізкейк</h4>
-                        <p class="menu-item__description">Ніжний чізкейк з лісовими ягодами</p>
                         <span class="menu-item__price">85 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('dessert2')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Тірамісу</h4>
-                        <p class="menu-item__description">Класичний італійський десерт з маскарпоне</p>
                         <span class="menu-item__price">95 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('dessert3')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Брауні</h4>
-                        <p class="menu-item__description">Шоколадний брауні з горіхами</p>
                         <span class="menu-item__price">70 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('dessert4')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Круасан</h4>
-                        <p class="menu-item__description">Свіжий французький круасан</p>
                         <span class="menu-item__price">45 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('dessert5')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Наполеон</h4>
-                        <p class="menu-item__description">Традиційний торт з заварним кремом</p>
                         <span class="menu-item__price">80 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('dessert6')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Штрудель</h4>
-                        <p class="menu-item__description">Яблучний штрудель з корицею</p>
                         <span class="menu-item__price">75 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1557925923-cd4648e211a0?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('dessert7')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1557925923-cd4648e211a0?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Макаруни</h4>
-                        <p class="menu-item__description">Французькі макаруни асорті (3 шт)</p>
                         <span class="menu-item__price">90 грн</span>
                     </div>
                 </div>
 
-                <div class="menu-item">
-                    <div class="menu-item__image"
-                         style="background-image: url('https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80');"></div>
+                <div class="menu-item" onclick="openPopup('dessert8')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80');"></div>
                     <div class="menu-item__info">
                         <h4 class="menu-item__title">Панакота</h4>
-                        <p class="menu-item__description">Вершкова панакота з ягідним соусом</p>
                         <span class="menu-item__price">85 грн</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="category">
+                <h3 class="category__title">🍳 Сніданки</h3>
+
+                <div class="menu-item" onclick="openPopup('breakfast1')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80');"></div>
+                    <div class="menu-item__info">
+                        <h4 class="menu-item__title">Яєчня з беконом</h4>
+                        <span class="menu-item__price">95 грн</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" onclick="openPopup('breakfast2')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80');"></div>
+                    <div class="menu-item__info">
+                        <h4 class="menu-item__title">Панкейки</h4>
+                        <span class="menu-item__price">85 грн</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" onclick="openPopup('breakfast3')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=800&q=80');"></div>
+                    <div class="menu-item__info">
+                        <h4 class="menu-item__title">Вівсянка</h4>
+                        <span class="menu-item__price">65 грн</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" onclick="openPopup('breakfast4')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80');"></div>
+                    <div class="menu-item__info">
+                        <h4 class="menu-item__title">Авокадо тост</h4>
+                        <span class="menu-item__price">110 грн</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" onclick="openPopup('breakfast5')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=800&q=80');"></div>
+                    <div class="menu-item__info">
+                        <h4 class="menu-item__title">Сендвіч</h4>
+                        <span class="menu-item__price">90 грн</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" onclick="openPopup('breakfast6')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=800&q=80');"></div>
+                    <div class="menu-item__info">
+                        <h4 class="menu-item__title">Омлет</h4>
+                        <span class="menu-item__price">85 грн</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" onclick="openPopup('breakfast7')">
+                    <div class="menu-item__image" style="background-image: url('https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80');"></div>
+                    <div class="menu-item__info">
+                        <h4 class="menu-item__title">Гранола</h4>
+                        <span class="menu-item__price">75 грн</span>
                     </div>
                 </div>
             </article>
@@ -278,10 +292,59 @@
     </section>
 </main>
 
+<div class="popup" id="coffee1">
+    <div class="popup__overlay" onclick="closePopup('coffee1')"></div>
+    <div class="popup__content">
+        <button class="popup__close" onclick="closePopup('coffee1')">✕</button>
+        <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=800&q=80" alt="Еспресо" class="popup__image">
+        <h3 class="popup__title">Еспресо</h3>
+        <p class="popup__price">45 грн</p>
+        <p class="popup__description">Класичний італійський еспресо з насиченим ароматом та глибоким смаком кави. Приготований з зерен арабіки найвищої якості. Ідеально підходить для тих, хто цінує справжній кавовий смак без домішок.</p>
+        <div class="popup__details">
+            <p><strong>Об'єм:</strong> 30 мл</p>
+            <p><strong>Калорійність:</strong> 2 ккал</p>
+            <p><strong>Час приготування:</strong> 25 секунд</p>
+            <p><strong>Кофеїн:</strong> 63 мг</p>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="coffee8">
+    <div class="popup__overlay" onclick="closePopup('coffee8')"></div>
+    <div class="popup__content">
+        <button class="popup__close" onclick="closePopup('coffee8')">✕</button>
+        <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&q=80" alt="Мокачіно" class="popup__image">
+        <h3 class="popup__title">Мокачіно</h3>
+        <p class="popup__price">85 грн</p>
+        <p class="popup__description">Кава з шоколадом та збитими вершками. Ідеальне поєднання еспресо, гарячого шоколаду та молока, увінчане хмаркою збитих вершків. Для справжніх любителів солодкого.</p>
+        <div class="popup__details">
+            <p><strong>Об'єм:</strong> 280 мл</p>
+            <p><strong>Калорійність:</strong> 245 ккал</p>
+            <p><strong>Склад:</strong> еспресо + шоколад + молоко + вершки</p>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="dessert1">
+    <div class="popup__overlay" onclick="closePopup('dessert1')"></div>
+    <div class="popup__content">
+        <button class="popup__close" onclick="closePopup('dessert1')">✕</button>
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80" alt="Чізкейк" class="popup__image">
+        <h3 class="popup__title">Чізкейк</h3>
+        <p class="popup__price">85 грн</p>
+        <p class="popup__description">Ніжний чізкейк з лісовими ягодами. Класичний нью-йоркський чізкейк на пісочній основі з кремовою начинкою з сиру маскарпоне. Подається з соусом з лісових ягід.</p>
+        <div class="popup__details">
+            <p><strong>Вага:</strong> 150 г</p>
+            <p><strong>Калорійність:</strong> 345 ккал</p>
+            <p><strong>Алергени:</strong> молоко, яйця, глютен</p>
+        </div>
+    </div>
+</div>
+
 <footer class="footer">
     <div class="footer__content">
         <div class="footer__section">
-            <h3 class="footer__title">Medelin Coffee</h3>
+            <h3 class="footer__title">Medellin Coffee</h3>
             <p class="footer__text">Найкраща кава в Ужгороді</p>
             <p class="footer__text">Смак, якість, атмосфера</p>
         </div>
@@ -290,7 +353,7 @@
             <h3 class="footer__title">Контакти</h3>
             <p class="footer__text">📍 вул. Корзо, 15, Ужгород</p>
             <p class="footer__text">📞 +380 (67) 123-45-67</p>
-            <p class="footer__text">✉️ info@medelin.coffee</p>
+            <p class="footer__text">✉️ info@medellin.coffee</p>
         </div>
 
         <div class="footer__section">
@@ -301,16 +364,38 @@
 
         <div class="footer__section">
             <h3 class="footer__title">Соцмережі</h3>
-            <a href="https://www.instagram.com/medelin_uzh/" target="_blank" class="footer__link">Instagram</a>
-            <a href="https://www.instagram.com/medelincoffee.bozdosh/" target="_blank" class="footer__link">Instagram(Bozdosh)</a>
+            <a href="https://www.instagram.com/medellin.uzhhorod/" target="_blank" class="footer__link">Instagram</a>
+            <a href="https://www.facebook.com/medellin.uzhhorod" target="_blank" class="footer__link">Facebook</a>
+            <a href="https://www.tiktok.com/@medellin.coffee" target="_blank" class="footer__link">TikTok</a>
         </div>
     </div>
 
     <div class="footer__bottom">
-        <p class="footer__copyright">© 2025 Medelin Coffee. Усі права захищені.</p>
+        <p class="footer__copyright">© 2024 Medellin Coffee. Усі права захищені.</p>
         <p class="footer__copyright">Сайт створено <strong>Глєбом</strong> — веброзробником з Ужгорода.</p>
     </div>
 </footer>
-X
+
+<script>
+    function openPopup(id) {
+        document.getElementById(id).classList.add('popup--active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closePopup(id) {
+        document.getElementById(id).classList.remove('popup--active');
+        document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            const activePopup = document.querySelector('.popup--active');
+            if (activePopup) {
+                activePopup.classList.remove('popup--active');
+                document.body.style.overflow = '';
+            }
+        }
+    });
+</script>
 </body>
 </html>

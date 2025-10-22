@@ -1,3 +1,29 @@
+:root {
+    --cream: #f7f3e9;
+    --dark-brown: #3c2f2f;
+    --coffee: #8b5e3c;
+    --olive: #5c6447;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cream);
+    color: var(--dark-brown);
+    line-height: 1.6;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+}
+
 .product-card {
     background-color: white;
     border-radius: 20px;
@@ -172,13 +198,97 @@
     font-weight: 600;
 }
 
-.popup__location-details {
-    background-color: white;
-    padding: 1.5rem 2rem;
-    margin: 0 2rem 2rem 2rem;
-    border-radius: 15px;
-    border-left: 4px solid var(--coffee);
+.popup__location-details a {
+    color: var(--coffee);
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
+
+.popup__location-details a:hover {
+    color: var(--olive);
+}
+
+.popup__location-details strong {
+    color: var(--dark-brown);
+    font-weight: 600;
+}
+
+.popup__btn {
+    display: block;
+    margin: 2rem;
+    text-align: center;
+}
+
+.popup__image--large {
+    height: 400px;
+}
+
+.menu-item {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.menu-item:hover {
+    background-color: #f9f9f9;
+    transform: translateX(5px);
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.gallery-item {
+    position: relative;
+    height: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.03);
+}
+
+.blog-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.blog-card:hover {
+    transform: translateY(-12px);
+}
+
+.event-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.event-card:hover {
+    transform: translateY(-12px);
+}details {
+     background-color: white;
+     padding: 1.5rem 2rem;
+     margin: 0 2rem 2rem 2rem;
+     border-radius: 15px;
+     border-left: 4px solid var(--coffee);
+ }
 
 .popup__location-details p {
     margin-bottom: 1rem;
@@ -195,24 +305,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root {
-    --cream: #f7f3e9;
-    --dark-brown: #3c2f2f;
-    --coffee: #8b5e3c;
-    --olive: #5c6447;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: var(--cream);
-    color: var(--dark-brown);
-    line-height: 1.6;
-}
-
-h1, h2, h3, h4 {
-    font-family: 'Playfair Display', serif;
 }
 
 .header {
