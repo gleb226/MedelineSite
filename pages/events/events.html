@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Події - Medellin Coffee</title>
+    <title>Події - Medelin Coffee</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
 <body>
 <header class="header">
     <div class="header__container">
-        <a href="../../index.html" class="header__logo">Medellin</a>
+        <a href="../../index.html" class="header__logo">Medelin</a>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="../../index.html" class="nav__link">Головна</a></li>
@@ -38,6 +38,7 @@
                 <div class="event-card__content">
                     <span class="event-card__date">15 листопада 2024</span>
                     <h3 class="event-card__title">Майстер-клас з латте-арту</h3>
+                    <p class="event-card__description">Навчіться створювати справжні шедеври на поверхні кави!</p>
                 </div>
             </article>
 
@@ -46,6 +47,7 @@
                 <div class="event-card__content">
                     <span class="event-card__date">Щоп'ятниці 18:00</span>
                     <h3 class="event-card__title">Жива музика</h3>
+                    <p class="event-card__description">Кожної п'ятниці виступають місцеві музиканти</p>
                 </div>
             </article>
 
@@ -54,6 +56,7 @@
                 <div class="event-card__content">
                     <span class="event-card__date">22 листопада 2024</span>
                     <h3 class="event-card__title">Дегустація кави</h3>
+                    <p class="event-card__description">Професійний капінг - розпізнавайте смаки</p>
                 </div>
             </article>
 
@@ -62,6 +65,7 @@
                 <div class="event-card__content">
                     <span class="event-card__date">Щосуботи 10:00</span>
                     <h3 class="event-card__title">Кавові сніданки</h3>
+                    <p class="event-card__description">Спеціальне сніданкове меню з кавою</p>
                 </div>
             </article>
 
@@ -70,6 +74,7 @@
                 <div class="event-card__content">
                     <span class="event-card__date">30 листопада 2024</span>
                     <h3 class="event-card__title">Різдвяна атмосфера</h3>
+                    <p class="event-card__description">Святкова музика, декор та спеціальне меню</p>
                 </div>
             </article>
 
@@ -78,6 +83,7 @@
                 <div class="event-card__content">
                     <span class="event-card__date">Щонеділі 14:00</span>
                     <h3 class="event-card__title">Книжковий клуб</h3>
+                    <p class="event-card__description">Обговорюємо книги за чашкою кави</p>
                 </div>
             </article>
         </div>
@@ -126,25 +132,83 @@
     <div class="popup__overlay" onclick="closePopup('event3')"></div>
     <div class="popup__content">
         <button class="popup__close" onclick="closePopup('event3')">✕</button>
-        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&q=80" alt="Кавові сніданки" class="popup__image">
-        <h3 class="popup__title">Кавові сніданки</h3>
-        <p class="popup__price">📅 Щоп'ятниці о 18:00</p>
-        <p class="popup__description">Кожної п'ятниці у Medellin виступають місцеві музиканти. Акустичні сети, джаз, інді — насолоджуйтесь музикою та смачною кавою у затишній атмосфері. Вхід вільний для всіх гостей кав'ярні.</p>
+        <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=800&q=80" alt="Дегустація кави" class="popup__image">
+        <h3 class="popup__title">Дегустація кави (Капінг)</h3>
+        <p class="popup__price">📅 22 листопада 2024, 16:00</p>
+        <p class="popup__description">Професійний капінг - мистецтво розпізнавання смаків кави. Спробуйте 5 різних сортів з різних країн світу, навчіться розрізняти відтінки смаку та аромату. Проведе наш Q-грейдер.</p>
         <div class="popup__details">
-            <p><strong>Місце:</strong> Medellin Центр</p>
-            <p><strong>Час:</strong> 18:00 - 21:00</p>
-            <p><strong>Вхід:</strong> вільний для гостей кав'ярні</p>
-            <p><strong>Жанри:</strong> акустика, джаз, інді, авторська пісня</p>
-            <p><strong>Бронювання столиків:</strong> рекомендовано</p>
+            <p><strong>Місце:</strong> Medellin на Корзо</p>
+            <p><strong>Тривалість:</strong> 1.5 години</p>
+            <p><strong>Вартість:</strong> 350 грн</p>
+            <p><strong>Кава:</strong> 5 сортів з різних континентів</p>
+            <p><strong>Місць:</strong> 10 учасників</p>
         </div>
-        <a href="../contact/contact.html" class="btn popup__btn">Забронювати столик</a>
+        <a href="../contact/contact.html" class="btn popup__btn">Записатися на дегустацію</a>
+    </div>
+</div>
+
+<div class="popup" id="event4">
+    <div class="popup__overlay" onclick="closePopup('event4')"></div>
+    <div class="popup__content">
+        <button class="popup__close" onclick="closePopup('event4')">✕</button>
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80" alt="Кавові сніданки" class="popup__image">
+        <h3 class="popup__title">Кавові сніданки</h3>
+        <p class="popup__price">📅 Щосуботи о 10:00</p>
+        <p class="popup__description">Почніть вихідний з смачного сніданку у Medellin! Спеціальне сніданкове меню з 20% знижкою до 12:00. Панкейки, яєчня, авокадо тости та свіжа кава.</p>
+        <div class="popup__details">
+            <p><strong>Місце:</strong> обидва заклади</p>
+            <p><strong>Час:</strong> 10:00 - 12:00</p>
+            <p><strong>Знижка:</strong> 20% на сніданкове меню</p>
+            <p><strong>Меню:</strong> панкейки, яєчня, тости, вівсянка</p>
+            <p><strong>Напої:</strong> будь-яка кава за спеціальною ціною</p>
+        </div>
+        <a href="../menu/menu.html" class="btn popup__btn">Подивитись меню</a>
+    </div>
+</div>
+
+<div class="popup" id="event5">
+    <div class="popup__overlay" onclick="closePopup('event5')"></div>
+    <div class="popup__content">
+        <button class="popup__close" onclick="closePopup('event5')">✕</button>
+        <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800&q=80" alt="Різдвяна атмосфера" class="popup__image">
+        <h3 class="popup__title">Різдвяна атмосфера</h3>
+        <p class="popup__price">📅 30 листопада - 7 січня</p>
+        <p class="popup__description">Medellin перетворюється на різдвяну казку! Святковий декор, різдвяна музика, ялинка та спеціальне сезонне меню. Імбирний латте, пряникове капучино, глінтвейн та багато іншого.</p>
+        <div class="popup__details">
+            <p><strong>Місце:</strong> обидва заклади</p>
+            <p><strong>Декор:</strong> ялинки, гірлянди, свічки</p>
+            <p><strong>Спеціальне меню:</strong> імбирний латте, пряникове капучино, глінтвейн</p>
+            <p><strong>Десерти:</strong> різдвяні смаколики</p>
+            <p><strong>Атмосфера:</strong> затишок, тепло, свята</p>
+        </div>
+        <a href="../contact/contact.html" class="btn popup__btn">Завітайте до нас</a>
+    </div>
+</div>
+
+<div class="popup" id="event6">
+    <div class="popup__overlay" onclick="closePopup('event6')"></div>
+    <div class="popup__content">
+        <button class="popup__close" onclick="closePopup('event6')">✕</button>
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&q=80" alt="Книжковий клуб" class="popup__image">
+        <h3 class="popup__title">Книжковий клуб</h3>
+        <p class="popup__price">📅 Щонеділі о 14:00</p>
+        <p class="popup__description">Любите читати? Приєднуйтесь до нашого книжкового клубу! Щонеділі ми обговорюємо прочитані книги за чашкою ароматної кави. Вільна дискусія, обмін думками, нові знайомства.</p>
+        <div class="popup__details">
+            <p><strong>Місце:</strong> Medellin на Корзо</p>
+            <p><strong>Час:</strong> 14:00 - 16:00</p>
+            <p><strong>Вхід:</strong> вільний</p>
+            <p><strong>Формат:</strong> вільна дискусія</p>
+            <p><strong>Що приносити:</strong> гарний настрій та любов до книг</p>
+            <p><strong>Бонус:</strong> 10% знижка на каву для учасників клубу</p>
+        </div>
+        <a href="../contact/contact.html" class="btn popup__btn">Приєднатися до клубу</a>
     </div>
 </div>
 
 <footer class="footer">
     <div class="footer__content">
         <div class="footer__section">
-            <h3 class="footer__title">Medellin Coffee</h3>
+            <h3 class="footer__title">Medelin Coffee</h3>
             <p class="footer__text">Найкраща кава в Ужгороді</p>
             <p class="footer__text">Смак, якість, атмосфера</p>
         </div>
@@ -152,8 +216,8 @@
         <div class="footer__section">
             <h3 class="footer__title">Контакти</h3>
             <p class="footer__text">📍 вул. Корзо, 15, Ужгород</p>
-            <p class="footer__text">📞 +380 (67) 123-45-67</p>
-            <p class="footer__text">✉️ info@medellin.coffee</p>
+            <p class="footer__text">📞 +380 (312) 61-43-48</p>
+            <p class="footer__text">✉️ info@medelin.coffee</p>
         </div>
 
         <div class="footer__section">
@@ -171,7 +235,7 @@
     </div>
 
     <div class="footer__bottom">
-        <p class="footer__copyright">© 2024 Medellin Coffee. Усі права захищені.</p>
+        <p class="footer__copyright">© 2025 Medelin Coffee. Усі права захищені.</p>
         <p class="footer__copyright">Сайт створено <strong>Глєбом</strong> — веброзробником з Ужгорода.</p>
     </div>
 </footer>
